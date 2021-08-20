@@ -10,4 +10,4 @@ TELEGRAM CAPTION BOT © @E_BOTZ
 </a>
 </p>
 
-Name :- 
+
