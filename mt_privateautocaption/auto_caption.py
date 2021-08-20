@@ -38,7 +38,7 @@ def get_file_id(msg: Message):
             # "poll",
             # "location",
             # "venue",
-            "sticker"
+        
         ):
             obj = getattr(msg, message_type)
             if obj:
