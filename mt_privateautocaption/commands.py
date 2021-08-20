@@ -15,8 +15,8 @@ async def start(client, update):
     reply_markup =  InlineKeyboardMarkup(
                                          [[
         InlineKeyboardButton("help↗️", callback_data="heroku"),
-        InlineKeyboardButton("🗣️Group", url="t.me/mo_tech_Group"),
-        InlineKeyboardButton("Channel📢", url="t.me/mo_tech_yt")
+        InlineKeyboardButton("🗣️Group", url="t.me/srsuggestionsofficial"),
+        InlineKeyboardButton("Channel📢", url="t.me/E_BOTZ")
         ]]
     )
     await update.reply_text(
@@ -32,7 +32,7 @@ async def callback_data(client, update: CallbackQuery):
 
     if query_data == "heroku":
         buttons = [[
-            InlineKeyboardButton("🖥️ Tutorial Video 🖥️", url="https://youtu.be/p4Z9ZN1lZUk")
+            InlineKeyboardButton("🎀 BOT 🎀", url="https://t.me/punisherofc")
             ],[
             InlineKeyboardButton("🏠Home", url=f"https://t.me/{USERNAME}?start=start"),
             InlineKeyboardButton("❌️Close", callback_data="motech"),
@@ -42,16 +42,16 @@ async def callback_data(client, update: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
 
         await update.message.edit_text(
-            """<b>🔻AutoCaption Bot🔻\n\nTake a look at the end of the video\nIt has to say\n\n🖥️Youtube Tutorial Video\n\nHeroku 👉 https://dashboard.heroku.com/\n\n© @Mo_Tech_YT</b>""",
+            """<code>🔻AutoCaption Bot🔻\n\nTake a look at the end of the video\nIt has to say\n\n🖥️Youtube Tutorial Video\n\nHeroku 👉 https://dashboard.heroku.com/\n\n© @punisherofc</code>""",
             reply_markup=reply_markup,
             parse_mode="html"
         )
 
     if query_data == "about":
         buttons = [[
-            InlineKeyboardButton("🗣️Group", url="t.me/mo_tech_Group"),
-            InlineKeyboardButton("Channel📢", url="t.me/mo_tech_yt"),
-            InlineKeyboardButton("📃Bot List", url="https://t.me/Mo_Tech_YT/176")
+            InlineKeyboardButton("🗣️Group", url="t.me/srsuggestionsofficial"),
+            InlineKeyboardButton("Channel📢", url="t.me/E_BOTZ"),
+            InlineKeyboardButton("📃Bot List", url="https://t.me/punisherofc")
             ],[
             InlineKeyboardButton("🏠Home", url=f"https://t.me/{USERNAME}?start=start"),
             InlineKeyboardButton("🔙Back", callback_data="heroku"),
